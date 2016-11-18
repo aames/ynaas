@@ -1,1 +1,1 @@
-web: flask run --port 80
+web: flask run --host ynaas.herokuapp.com --port 80
