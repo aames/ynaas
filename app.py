@@ -20,3 +20,7 @@ def yeah_nah(thing=None):
 @app.errorhandler(404)
 def page_not_found(e):
     return yeah_nah("Wat? %s" % e)
+
+
+if __name__ == "__main__":
+    app.run(port=80)
