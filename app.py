@@ -22,5 +22,8 @@ def page_not_found(e):
     return yeah_nah("Wat? %s" % e)
 
 
-if __name__ == "__main__":
+def main():
     app.run(port=80)
+
+if __name__ == "__main__":
+    main()
