@@ -8,7 +8,7 @@ It's built on Flask and uses the MIT license (so feel free to extend as you wish
 
 ## Usage
 
-Running:
+Running locally is as simple as:
 
 ```
 $ export FLASK_APP=hello.py
@@ -16,6 +16,8 @@ $ flask run
  * Running on http://127.0.0.1:5000/
 
 ```
+
+Or use gunicorn and run `gunicorn app:app` to improve the performance of concurrent requests!
 
 Calling:
 
